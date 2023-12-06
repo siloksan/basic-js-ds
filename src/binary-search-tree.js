@@ -121,7 +121,7 @@ class BinarySearchTree {
         return;
       }
       if (data === currentNodeData && currentNode.right === null) {
-        prevNode.left = currentNode.left;
+        prevNode.right = currentNode.left;
         return;
       }
       if (data === currentNodeData) {
@@ -203,3 +203,31 @@ class BinarySearchTree {
 module.exports = {
   BinarySearchTree,
 };
+
+// const tree = new BinarySearchTree();
+
+// tree.add(10);
+// tree.add(2);
+// tree.add(20);
+// tree.add(1);
+// tree.add(15);
+// tree.add(13);
+// tree.add(11);
+// tree.add(14);
+// tree.add(18);
+// tree.add(16);
+// tree.add(17);
+// tree.add(19);
+// tree.add(30);
+// tree.add(25);
+// tree.add(35);
+// tree.add(3);
+// tree.add(0);
+// console.log("tree.has(20): ", tree.has(20));
+// tree.remove(20);
+// // console.log("tree.min(): ", tree.min());
+// // console.log("tree.max(): ", tree.max());
+// console.log("tree.has(20) after remove: ", tree.has(20));
+
+// console.log("tree.root().data: ", tree.root().data);
+// console.log("tree.root().data: ", tree.root());
