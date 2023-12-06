@@ -17,6 +17,13 @@
       "name": "remove-from-listtest",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\src\\remove-from-list.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "stack",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\stack.js"
     }
   ]
 }
