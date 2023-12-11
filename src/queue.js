@@ -54,11 +54,3 @@ class Queue {
 module.exports = {
   Queue,
 };
-
-const queue = new Queue();
-queue.enqueue(5);
-queue.enqueue(6);
-queue.enqueue(7);
-queue.dequeue()
-
-console.log(queue.getUnderlyingList());
