@@ -52,14 +52,3 @@ function removeKFromList(l, k) {
 module.exports = {
   removeKFromList,
 };
-
-// let list = convertArrayToList([3, 2]);
-// console.log("1) list [3, 2], expected [2]:", removeKFromList(list, 3));
-// list = convertArrayToList([3, 3, 2]);
-// console.log("2) list [3, 3, 2], expected [2]:", removeKFromList(list, 3));
-// list = convertArrayToList([2, 3]);
-// console.log("3) list [2, 3], expected [2]:", removeKFromList(list, 3));
-// list = convertArrayToList([2, 3, 3]);
-// console.log("4) list [2, 3, 3], expected [2]:", removeKFromList(list, 3));
-// list = convertArrayToList([2, 3, 1]);
-// console.log("5) list [2, 3, 1], expected [2, 1]:", removeKFromList(list, 3));

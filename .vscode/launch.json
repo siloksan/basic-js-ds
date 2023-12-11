@@ -7,6 +7,13 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "queue",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\queue.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "binary tree",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\src\\binary-search-tree.js"
